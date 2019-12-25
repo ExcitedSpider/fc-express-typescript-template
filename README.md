@@ -1,5 +1,5 @@
 
-# demo
+# fc-express-typescript-template
 
 阿里云函数计算项目骨架。预设为HTTP触发器，适合开发微服务/Restful API/简易Web应用。
 * 语言: TypeScript
@@ -9,12 +9,24 @@
 * 代码规范: eslint(airbnb规则)+prettier
 
 ## 准备
-
 1. 安装 node
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
 nvm install 8
+```
+
+2. 安装 fun 工具
+
+```bash
+npm install @alicloud/fun -g
+```
+要是用fun工具进行本地调试函数，需要安装docker，具体可参考https://github.com/alibaba/funcraft/blob/master/docs/usage/installation-zh.md
+
+## 基于此骨架初始化项目
+
+```bash
+fun init -n demo https://github.com/ExcitedSpider/fc-express-typescript-template.git
 ```
 
 ## 安装依赖
