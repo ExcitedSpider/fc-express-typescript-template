@@ -5,7 +5,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --config webpack.dev.js --watch",
     "build": "webpack --config webpack.prod.js",
-    "start": "npm run dev & fun local start"
+    "start": "webpack --config webpack.dev.js && fun local start & npm run dev"
   },
   "description": "阿里云函数计算项目骨架。\n语言: TypeScript\n运行时: nodejs8\n开发框架: express\n 代码规范: eslint(airbnb规则)+prettier",
   "devDependencies": {

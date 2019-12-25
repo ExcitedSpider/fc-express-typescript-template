@@ -1,4 +1,3 @@
-
 # fc-express-typescript-template
 
 阿里云函数计算项目骨架。预设为HTTP触发器，适合开发微服务/Restful API/简易Web应用。
@@ -21,7 +20,7 @@ nvm install 8
 ```bash
 npm install @alicloud/fun -g
 ```
-要是用fun工具进行本地调试函数，需要安装docker，具体可参考https://github.com/alibaba/funcraft/blob/master/docs/usage/installation-zh.md
+要是用fun工具进行本地调试函数，需要安装docker，具体可参考(Funcraft安装手册)[https://github.com/alibaba/funcraft/blob/master/docs/usage/installation-zh.md]
 
 ## 基于此骨架初始化项目
 
