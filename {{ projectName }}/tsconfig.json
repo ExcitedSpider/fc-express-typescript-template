@@ -1,0 +1,12 @@
+{
+  "include": ["src/*"],
+  "exclude": ["node_modules", "**/*.test.ts", "dist", ".fun"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "inlineSourceMap": false,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "lib": ["dom", "es5", "scripthost", "es2015.promise"]
+  }
+}
